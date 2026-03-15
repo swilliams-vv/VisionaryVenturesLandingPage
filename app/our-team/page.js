@@ -12,12 +12,12 @@ const gold = 'linear-gradient(135deg,#BF953F,#FCF6BA,#B38728,#FBF5B7,#AA771C)'
 const goldText = {background:gold,WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent',backgroundClip:'text'}
 
 const team = [
-  { name: "Grayson O'Bara", title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/GCO.jpg' },
-  { name: 'Sean Williams', title: 'Founder', credential: "Dartmouth '26 — Economics & Human-Centered Design", photo: 'SPW.jpg' },
-  { name: 'Tyson Grimm', title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/TRG.jpg' },
-  { name: 'Jamal Cooper', title: 'Founder', credential: "Dartmouth '26 — Sociology", photo: '/JMC.jpg' },
-  { name: 'David Vincent', title: 'Founder', credential: "Kent State '26 - Finance", photo: '/DHV.jpg' },
-  { name: 'Patrick Campbell', title: 'Partner', credential: "Dartmouth '26 — Quantitative Social Science", photo: '/PJC.jpg' },
+  { name: "Grayson O'Bara", title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/GCO.png' },
+  { name: 'Sean Williams', title: 'Founder', credential: "Dartmouth '26 — Economics & Human-Centered Design", photo: '/SPW.png' },
+  { name: 'Tyson Grimm', title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/TRG.png' },
+  { name: 'Jamal Cooper', title: 'Founder', credential: "Dartmouth '26 — Sociology", photo: '/JMC.png' },
+  { name: 'David Vincent', title: 'Founder', credential: "Kent State '26 - Finance", photo: '/DHV.png' },
+  { name: 'Patrick Campbell', title: 'Partner', credential: "Dartmouth '26 — Quantitative Social Science", photo: '/PJC.png' },
 ]
 
 const values = [
