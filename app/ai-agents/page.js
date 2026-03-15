@@ -1,11 +1,11 @@
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
-import { MessageSquare, GitBranch, BarChart2, Shield, Zap, Plug } from 'lucide-react'
+import { MessageSquare, GitBranch, BarChart2, Zap, Plug, Bot, RefreshCw } from 'lucide-react'
 
 export const metadata = {
   title: 'AI Agent Development Services | Visionary Ventures',
-  description: 'Custom AI agent development services for business. We build autonomous AI agents that handle complex workflows, customer support, and data analysis 24/7.',
+  description: 'AI Agents are intelligent software assistants that work for your business around the clock. We build custom agents that handle customer inquiries, automate repetitive tasks, and process data.',
   keywords: 'AI agent development services, custom AI agent for business, AI agent consulting, build AI agent for business, AI agent implementation services, autonomous AI agent for business operations, AI agent solutions for companies, AI automation services for business, AI powered automation solutions, intelligent automation services, end to end business automation, AI driven process automation'
 }
 
@@ -15,8 +15,8 @@ const goldText = {background:gold,WebkitBackgroundClip:'text',WebkitTextFillColo
 const features = [
   { icon: MessageSquare, title: 'Natural Language Processing', desc: 'Agents that understand and respond to human language with precision, enabling seamless communication across your business.' },
   { icon: GitBranch, title: 'Multi-Agent Orchestration', desc: 'Deploy networks of specialized agents that collaborate autonomously to complete complex, multi-step business workflows.' },
-  { icon: BarChart2, title: 'Predictive Logic Models', desc: 'AI agents equipped with predictive capabilities that anticipate business needs and take proactive action.' },
-  { icon: Shield, title: 'Secure Data Handling', desc: 'Enterprise-grade security protocols ensuring your sensitive business data is protected at every step.' },
+  { icon: Bot, title: 'AI Receptionist', desc: 'Never miss a lead again. Your AI receptionist answers calls, responds to inquiries, qualifies prospects, and books appointments around the clock.' },  
+  { icon: RefreshCw, title: 'Automated Follow-Ups', desc: 'Your agent automatically follows up with customers after appointments, purchases, or inquiries — keeping your business top of mind without any manual effort.' },
   { icon: Zap, title: 'Real-Time Processing', desc: 'Agents that operate at machine speed, processing thousands of tasks simultaneously without degradation.' },
   { icon: Plug, title: 'Seamless Integration', desc: 'Drop-in deployment into your existing tech stack with minimal disruption to current operations.' },
 ]
