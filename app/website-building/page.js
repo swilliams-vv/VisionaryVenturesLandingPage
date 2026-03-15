@@ -1,7 +1,7 @@
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
-import { Zap, MonitorSmartphone, Bot, Search, CalendarCheck, Palette } from 'lucide-react'
+import { Zap, MonitorSmartphone, Bot, Search } from 'lucide-react'
 
 export const metadata = {
   title: 'Custom Website Design & Development | Visionary Ventures',
@@ -15,10 +15,8 @@ const goldText = {background:gold,WebkitBackgroundClip:'text',WebkitTextFillColo
 const features = [
   { icon: Zap, title: 'Lightning Fast Performance', desc: 'Sub-second load times built on modern frameworks. Speed is SEO and speed is conversion.' },
   { icon: MonitorSmartphone, title: 'Mobile-First Design', desc: 'Every website we build looks and performs flawlessly on any device, screen size, or browser.' },
-  { icon: Bot, title: 'AI Chatbot Integration', desc: 'Built-in AI chatbots that engage visitors, answer questions, and capture leads around the clock.' },
+  { icon: Bot, title: 'AI Chatbot Integration', desc: 'Built-in AI chatbots that engage visitors, answer questions, and communicate leads to you around the clock.' },
   { icon: Search, title: 'SEO Optimized', desc: 'Every page built with search engine ranking in mind — from meta tags to page structure to load speed.' },
-  { icon: CalendarCheck, title: 'Booking & Review Systems', desc: 'Integrated scheduling, review collection, and customer follow-up systems built directly into your site.' },
-  { icon: Palette, title: 'Custom Brand Design', desc: 'Unique, premium designs that reflect your brand identity and set you apart from the competition.' },
 ]
 
 export default function WebsiteBuildingPage() {
@@ -37,7 +35,7 @@ export default function WebsiteBuildingPage() {
             <span style={goldText}>Work For You.</span>
           </h1>
           <p className="mt-6 text-lg text-[#a1a1aa] max-w-2xl font-extralight">
-            We design and build custom websites that don't just look great — they actively grow your business. From professional website design to full AI integration, our web development services are built to convert.
+            We design and build custom websites that don't just look great — they actively grow your business. Professional website design built to convert.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link href="/#contact" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>Start Your Website</Link>
@@ -67,24 +65,6 @@ export default function WebsiteBuildingPage() {
         </div>
       </section>
 
-      <section className="py-24 border-t border-[#ffffff0a]">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-base uppercase tracking-widest text-[#a1a1aa] mb-2">Our Process</h2>
-          <p className="text-3xl md:text-4xl font-medium text-white mb-16">
-            From concept to <span style={goldText}>launch</span>.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            {[['1','Discovery','We learn your brand, goals, and target audience to inform every design decision.'],['2','Design','Custom mockups built around your brand identity, reviewed and refined with your input.'],['3','Development','We build your site on modern, fast frameworks optimized for SEO and performance.'],['4','Launch','Full deployment, domain setup, and ongoing support to keep your site running perfectly.']].map(([num, title, desc]) => (
-              <div key={num} className="bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-6 relative overflow-hidden hover:-translate-y-1 transition-all duration-300">
-                <div className="absolute top-0 left-0 right-0 h-[2px]" style={{background:gold}}></div>
-                <div className="text-5xl font-medium text-[#ffffff05] mb-4">0{num}</div>
-                <h3 className="text-lg font-medium text-white mb-2">{title}</h3>
-                <p className="text-[#a1a1aa] text-sm leading-relaxed">{desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto rounded-3xl p-12 md:p-24 text-center relative overflow-hidden border border-[#ffffff15]" style={{background:'linear-gradient(to bottom right, #1a1405, #0a0a0a)'}}>
