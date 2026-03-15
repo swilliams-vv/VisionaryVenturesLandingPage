@@ -39,8 +39,7 @@ export default function SoftwarePage() {
             We build custom business software designed specifically around how your company operates. From scheduling and crew management to payments, invoicing, and profit tracking — we centralize everything your team needs into one clean, easy to use platform so nothing falls through the cracks.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
-            <Link href="/#contact" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>Enhance Your Software</Link>
-            <Link href="/#contact" className="w-full sm:w-auto px-8 py-3 rounded-full text-base text-[#f4f4f5] border border-[#ffffff15] bg-[#ffffff05] hover:bg-[#ffffff0a] transition-all duration-300">Get a Free Audit</Link>
+            <Link href="/#contact" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>Get a Free Audit</Link>
           </div>
         </div>
       </section>
