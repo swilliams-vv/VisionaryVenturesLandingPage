@@ -135,10 +135,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
             <div className="hidden md:block absolute top-[40px] left-10 right-10 h-[1px] border-t border-dashed border-[#ffffff15] z-0"></div>
             {[
-              ['1', 'Understand', `We start with a deep dive into your business challenges and the friction holding you back — so every solution we build is designed around your specific situation.`],
-              ['2', 'Plan', `Designing the blueprint, selecting the right tools, and defining how everything will work together.`],
-              ['3', 'Build', `We build, test, and refine your solution until every detail works exactly the way it should.`],
-              ['4', 'Launch', `Secure launch, full team training, and continuous support so your business hits the ground running.`]
+              ['1', 'Understand', `Deep dive into your business - understanding your challenges, pain points, and where things aren't working as smoothly as they could be.`],
+              ['2', 'Plan', `Designing the technical blueprint, selecting the right tools, and defining how everything will work together.`],
+              ['3', 'Build', `Building, testing, and refining your solution until every detail works exactly the way it should.`],
+              ['4', 'Launch', `Secure launch with continuous support so your business hits the ground running.`]
             ].map(([num, title, desc]) => (
               <div key={num} className="relative z-10 group">
                 <div className="bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-8 h-full relative overflow-hidden transition-transform duration-300 group-hover:-translate-y-2">
