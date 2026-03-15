@@ -15,7 +15,7 @@ const services = [
   {
     icon: Globe,
     title: 'Website Building',
-    description: `We design and build custom websites that don't just look great — they actively grow your business. Every site we build is optimized for SEO to increase your visibility on the web and designed to turn visitors into paying customers.',
+    description: `We design and build custom websites that don't just look great — they actively grow your business. Every site we build is optimized for SEO to increase your visibility on the web and designed to turn visitors into paying customers.`,
     href: '/website-building',
   },
   {
