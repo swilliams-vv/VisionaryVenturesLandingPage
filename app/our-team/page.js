@@ -1,7 +1,7 @@
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
-import { Lightbulb, Target, Sheild, Zap } from 'lucide-react'
+import { Lightbulb, Target, Shield, Zap } from 'lucide-react'
 
 export const metadata = {
   title: 'Our Team | Visionary Ventures',
