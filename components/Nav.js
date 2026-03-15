@@ -23,7 +23,7 @@ export default function Nav() {
         </div>
 
         <Link href="/#contact" className="hidden md:inline-flex items-center justify-center px-5 py-2 text-sm font-medium text-[#0a0a0a] transition-all duration-300 rounded-full hover:shadow-[0_0_20px_rgba(201,168,76,0.3)] hover:-translate-y-[1px]" style={{background:'linear-gradient(135deg,#BF953F,#FCF6BA,#B38728,#FBF5B7,#AA771C)'}}>
-          Initialize Project
+          Book Consultation
         </Link>
 
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-[#f4f4f5] text-xl">{menuOpen ? '✕' : '☰'}</button>
