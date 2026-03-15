@@ -13,7 +13,7 @@ const goldText = {background:gold,WebkitBackgroundClip:'text',WebkitTextFillColo
 
 const team = [
   { name: "Grayson O'Bara", title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/GCO.jpg' },
-  { name: 'Sean Williams', title: 'Founder', credential: "Dartmouth '26 — Economics & Human-Centered Design", photo: '/SPW.jpg' },
+  { name: 'Sean Williams', title: 'Founder', credential: "Dartmouth '26 — Economics & Human-Centered Design", photo: 'SPW.jpg' },
   { name: 'Tyson Grimm', title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/TRG.jpg' },
   { name: 'Jamal Cooper', title: 'Founder', credential: "Dartmouth '26 — Sociology", photo: '/JMC.jpg' },
   { name: 'David Vincent', title: 'Founder', credential: "Kent State '26 - Finance", photo: '/DHV.jpg' },
