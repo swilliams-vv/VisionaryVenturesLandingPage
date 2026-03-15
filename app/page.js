@@ -167,8 +167,8 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
       <section id="contact" className="py-32 relative">
         <div className="max-w-2xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-medium tracking-tight text-white">Initialize Systems</h2>
-            <p className="text-base text-[#a1a1aa] mt-3">Provide your operational requirements. Our lead architects will respond within 24 hours.</p>
+            <h2 className="text-3xl font-medium tracking-tight text-white">Let's Work Together</h2>
+            <p className="text-base text-[#a1a1aa] mt-3">Tell us about your business and we'll get back to you within 24 hours.</p>
           </div>
           <div className="bg-[#0f0f1a]/80 backdrop-blur-xl border border-[#ffffff0a] p-8 md:p-10 rounded-3xl shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-[1px]" style={{background:'linear-gradient(to right, transparent, #C9A84C, transparent)'}}></div>
@@ -211,8 +211,8 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
               <div className="w-16 h-16 rounded-full bg-[#C9A84C]/10 flex items-center justify-center mb-6 border border-[#C9A84C]/20">
                 <span className="text-[#C9A84C] text-3xl">✓</span>
               </div>
-              <h3 className="text-2xl font-medium text-white mb-2">Transmission Received</h3>
-              <p className="text-base text-[#a1a1aa] max-w-sm">Your request has been logged. Our integration specialists will contact you shortly.</p>
+              <h3 className="text-2xl font-medium text-white mb-2">Message Sent.</h3>
+              <p className="text-base text-[#a1a1aa] max-w-sm">You're one step closer to a smarter business. Our team will reach out within 24 hours to get the conversation started.</p>
             </div>
           </div>
         </div>
