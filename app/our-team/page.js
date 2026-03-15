@@ -1,7 +1,7 @@
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
-import { Lightbulb, Users, Target } from 'lucide-react'
+import { Lightbulb, Target, Sheild, Zap } from 'lucide-react'
 
 export const metadata = {
   title: 'Our Team | Visionary Ventures',
@@ -21,9 +21,10 @@ const team = [
 ]
 
 const values = [
-  { icon: Lightbulb, title: 'Innovation First', desc: "We push the boundaries of what's possible, constantly exploring the frontier of AI to bring our clients tomorrow's solutions today." },
-  { icon: Users, title: 'Client Success', desc: 'Your success is our success. We measure our value by the tangible results we deliver to every business we work with.' },
-  { icon: Target, title: 'Precision Execution', desc: 'We bring the same analytical rigor from our academic training to every project — thoughtful, thorough, and built to last.' },
+  { icon: Shield, title: 'Integrity', desc: 'We operate with full transparency and honesty in everything we do — with our clients, our partners, and each other. Trust is the foundation of every relationship we build.' },
+  { icon: Target, title: 'Accountability', desc: 'We take ownership of our work and our results. When we commit to something, we deliver — and when challenges arise, we face them head on.' },
+  { icon: Zap, title: 'Diligence', desc: 'We bring relentless attention to detail and work ethic to every project. Good enough is never enough — we push until every solution is built to last.' },
+  { icon: Lightbulb, title: 'Innovation', desc: 'We stay on the cutting edge of AI so our clients never fall behind. Constant learning and bold thinking are at the heart of everything we build.' },
 ]
 
 export default function OurTeamPage() {
@@ -102,7 +103,7 @@ export default function OurTeamPage() {
           <div className="absolute top-0 right-0 w-64 h-64 rounded-full pointer-events-none" style={{background:'rgba(201,168,76,0.2)',filter:'blur(80px)'}}></div>
           <h2 className="text-3xl md:text-5xl font-medium text-white">Ready to work with us?</h2>
           <p className="mt-4 text-[#a1a1aa] font-extralight">Let's build something extraordinary together.</p>
-          <Link href="/#contact" className="mt-8 inline-block px-8 py-4 bg-white text-[#0a0a0a] rounded-full text-base font-normal hover:-translate-y-1 transition-all duration-300">Initialize Project</Link>
+          <Link href="/#contact" className="mt-8 inline-block px-8 py-4 bg-white text-[#0a0a0a] rounded-full text-base font-normal hover:-translate-y-1 transition-all duration-300">Book a Free Consultation</Link>
         </div>
       </section>
 
