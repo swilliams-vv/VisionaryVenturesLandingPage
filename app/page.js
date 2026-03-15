@@ -9,13 +9,13 @@ const services = [
   {
     icon: Bot,
     title: 'AI Agents & Automation',
-    description: 'Deploy custom-built AI Agents, AI Receptionists, and Chatbots that handle your business around the clock. From answering customer inquiries and booking appointments to data analysis and follow-ups — our agents work 24/7 so you don't have to.',
+    description: `Deploy custom-built AI Agents, AI Receptionists, and Chatbots that handle your business around the clock. From answering customer inquiries and booking appointments to data analysis and follow-ups — our agents work 24/7 so you don't have to.`,
     href: '/ai-agents',
   },
   {
     icon: Globe,
     title: 'Website Building',
-    description: 'We design and build custom websites that don't just look great — they actively grow your business. Every site we build is optimized for SEO to increase your visibility on the web and designed to turn visitors into paying customers.',
+    description: `We design and build custom websites that don't just look great — they actively grow your business. Every site we build is optimized for SEO to increase your visibility on the web and designed to turn visitors into paying customers.',
     href: '/website-building',
   },
   {
