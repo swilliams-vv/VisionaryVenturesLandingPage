@@ -27,7 +27,7 @@ const services = [
   {
     icon: Network,
     title: 'Full AI Integration',
-    description: 'We connect your agents, software, and website into one seamless ecosystem working as one - automating the day to day so your team focuses on what they do best.',
+    description: `We connect your agents, software, and website into one seamless ecosystem working as one - automating the day to day so your team focuses on what they do best.`,
     href: '/ai-agents',
   }
 ]
@@ -78,7 +78,8 @@ export default function Home() {
             <span style={goldText}>Visions</span> of Tomorrow.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-[#a1a1aa] max-w-2xl mx-auto font-extralight">
-AI consulting services for businesses looking to integrate AI Agents, Custom Software, and AI Automation that saves time, grows revenue, and keeps you ahead of your competition.          </p>
+            AI consulting services for businesses looking to integrate AI Agents, Custom Software, and AI Automation that saves time, grows revenue, and keeps you ahead of your competition.
+          </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="#services" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>
               Explore Capabilities
@@ -127,13 +128,18 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
       {/* Process */}
       <section id="process" className="py-32 relative border-t border-[#ffffff0a]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-base font-normal tracking-widest text-[#a1a1aa] uppercase mb-2">Deployment Protocol</h2>
+          <h2 className="text-base font-normal tracking-widest text-[#a1a1aa] uppercase mb-2">Our Process</h2>
           <p className="text-3xl md:text-4xl font-medium tracking-tight text-white mb-20">
-            From concept to <span style={goldText}>production</span>.
+            From concept to <span style={goldText}>launch</span>.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
             <div className="hidden md:block absolute top-[40px] left-10 right-10 h-[1px] border-t border-dashed border-[#ffffff15] z-0"></div>
-            {[['1','Discovery','Deep dive into your business — understanding your challenges, pain points, and where things aren't working as smoothly as they could be.'],['2','Architecture','Designing the technical blueprint, selecting the right tools, and defining how everything will work together.'],['3','Development','We build, test, and refine your solution until every detail works exactly the way it should.'],['4','Deployment','Secure launch with continuous support so your business hits the ground running.']].map(([num, title, desc]) => (
+            {[
+              ['1', 'Understand', `We start with a deep dive into your business challenges and the friction holding you back — so every solution we build is designed around your specific situation.`],
+              ['2', 'Plan', `Designing the blueprint, selecting the right tools, and defining how everything will work together.`],
+              ['3', 'Build', `We build, test, and refine your solution until every detail works exactly the way it should.`],
+              ['4', 'Launch', `Secure launch, full team training, and continuous support so your business hits the ground running.`]
+            ].map(([num, title, desc]) => (
               <div key={num} className="relative z-10 group">
                 <div className="bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-8 h-full relative overflow-hidden transition-transform duration-300 group-hover:-translate-y-2">
                   <div className="absolute top-0 left-0 right-0 h-[2px]" style={{background:gold}}></div>
@@ -155,7 +161,7 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
           <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full pointer-events-none mix-blend-screen" style={{background:'rgba(201,168,76,0.2)',filter:'blur(80px)'}}></div>
           <div className="relative z-10 max-w-2xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">Ready to run a smarter business?</h2>
-            <p className="mt-6 text-base font-extralight" style={{color:'rgba(201,168,76,0.8)'}}>Elite businesses aren't waiting for the future — they're building it right now with AI. Take the first step and reach out today.</p>
+            <p className="mt-6 text-base font-extralight" style={{color:'rgba(201,168,76,0.8)'}}>Elite businesses aren&apos;t waiting for the future — they&apos;re building it right now with AI. Take the first step and reach out today.</p>
             <Link href="#contact" className="mt-10 inline-block px-8 py-4 bg-white text-[#0a0a0a] rounded-full text-base font-normal hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:-translate-y-1 transition-all duration-300">
               Start the Conversation
             </Link>
@@ -167,8 +173,8 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
       <section id="contact" className="py-32 relative">
         <div className="max-w-2xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-medium tracking-tight text-white">Let's Work Together</h2>
-            <p className="text-base text-[#a1a1aa] mt-3">Tell us about your business and we'll get back to you within 24 hours.</p>
+            <h2 className="text-3xl font-medium tracking-tight text-white">Let&apos;s Work Together</h2>
+            <p className="text-base text-[#a1a1aa] mt-3">Tell us about your business and we&apos;ll get back to you within 24 hours.</p>
           </div>
           <div className="bg-[#0f0f1a]/80 backdrop-blur-xl border border-[#ffffff0a] p-8 md:p-10 rounded-3xl shadow-2xl relative overflow-hidden">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-[1px]" style={{background:'linear-gradient(to right, transparent, #C9A84C, transparent)'}}></div>
@@ -200,7 +206,7 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-normal text-[#a1a1aa] uppercase tracking-wider">Message</label>
-                  <textarea name="message" required rows={4} className="w-full bg-[#0a0a0a] border border-[#ffffff10] rounded-xl px-4 py-3 text-base text-white placeholder-[#4b4b52] focus:outline-none focus:border-[#C9A84C] transition-all resize-none" placeholder="Describe your operational goals..." />
+                  <textarea name="message" required rows={4} className="w-full bg-[#0a0a0a] border border-[#ffffff10] rounded-xl px-4 py-3 text-base text-white placeholder-[#4b4b52] focus:outline-none focus:border-[#C9A84C] transition-all resize-none" placeholder="Tell us about your business and what you are looking to achieve..." />
                 </div>
                 <button type="submit" id="submit-btn" className="w-full py-4 rounded-xl text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[1px]" style={{background:gold}}>
                   Submit Request
@@ -212,7 +218,7 @@ AI consulting services for businesses looking to integrate AI Agents, Custom Sof
                 <span className="text-[#C9A84C] text-3xl">✓</span>
               </div>
               <h3 className="text-2xl font-medium text-white mb-2">Message Sent.</h3>
-              <p className="text-base text-[#a1a1aa] max-w-sm">You're one step closer to a smarter business. Our team will reach out within 24 hours to get the conversation started.</p>
+              <p className="text-base text-[#a1a1aa] max-w-sm">You&apos;re one step closer to a smarter business. Our team will reach out within 24 hours to get the conversation started.</p>
             </div>
           </div>
         </div>
