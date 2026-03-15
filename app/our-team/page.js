@@ -62,7 +62,7 @@ export default function OurTeamPage() {
                   <img
                     src={member.photo}
                     alt={member.name}
-                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain object-top group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0" style={{background:'linear-gradient(to top, #0f0f1a 0%, transparent 60%)'}}></div>
                 </div>
