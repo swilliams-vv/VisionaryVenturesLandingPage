@@ -83,7 +83,7 @@ export default function OurTeamPage() {
           <p className="text-3xl md:text-4xl font-medium text-white mb-16 text-center">
             Our <span style={goldText}>core values</span>.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {values.map(v => {
               const Icon = v.icon
               return (
