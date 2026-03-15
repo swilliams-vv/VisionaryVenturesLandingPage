@@ -9,25 +9,25 @@ const services = [
   {
     icon: Bot,
     title: 'AI Agents & Automation',
-    description: 'Deploy custom-trained AI agents that handle complex workflows autonomously. From customer support to data analysis, our agents operate 24/7 with zero degradation in performance.',
+    description: 'Deploy custom-built AI Agents, AI Receptionists, and Chatbots that handle your business around the clock. From answering customer inquiries and booking appointments to data analysis and follow-ups — our agents work 24/7 so you don't have to.',
     href: '/ai-agents',
   },
   {
     icon: Globe,
     title: 'Website Building',
-    description: 'We design and build custom websites that don\'t just look great — they actively grow your business. From professional website design to full AI integration, built to convert.',
+    description: 'We design and build custom websites that don't just look great — they actively grow your business. Every site we build is optimized for SEO to increase your visibility on the web and designed to turn visitors into paying customers.',
     href: '/website-building',
   },
   {
     icon: Settings,
-    title: 'Software Enhancement',
-    description: 'Bespoke software solutions that centralize your operations. We build scalable internal tools that replace fragmented systems, ensuring your data flows cleanly across every department.',
+    title: 'Custom Business Software',
+    description: 'We build custom software that centralizes your entire business operation into one easy to use platform. From scheduling and invoicing to customer communication — everything your team needs, in one place.',
     href: '/software',
   },
   {
     icon: Network,
     title: 'Full AI Integration',
-    description: 'We connect your agents, software, and website into one seamless ecosystem. Data flows freely, processes trigger automatically, and your team focuses on what they do best.',
+    description: 'We connect your agents, software, and website into one seamless ecosystem working as one - automating the day to day so your team focuses on what they do best.',
     href: '/ai-agents',
   }
 ]
@@ -78,8 +78,7 @@ export default function Home() {
             <span style={goldText}>Visions</span> of Tomorrow.
           </h1>
           <p className="mt-6 text-lg md:text-xl text-[#a1a1aa] max-w-2xl mx-auto font-extralight">
-            Enterprise-grade AI consulting services, scalable software, and full-stack integration designed for the next era of business efficiency.
-          </p>
+AI consulting services for businesses looking to integrate AI Agents, Custom Software, and AI Automation that saves time, grows revenue, and keeps you ahead of your competition.          </p>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="#services" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>
               Explore Capabilities
@@ -90,7 +89,7 @@ export default function Home() {
           </div>
 
           <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {[['10x','Faster Execution'],['24/7','Autonomous AI'],['100%','Custom Solutions'],['∞','Infinite Scale']].map(([val, label]) => (
+            {[['10x','More Output, Less Work'],['24/7','AI Availability'],['100%','Custom Solutions'],['∞','Infinite Scale']].map(([val, label]) => (
               <div key={label} className="bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-6 text-left group hover:-translate-y-1 hover:border-[#ffffff15] transition-all duration-300 overflow-hidden relative">
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" style={{background:'linear-gradient(to bottom right, rgba(201,168,76,0.1), transparent)'}}></div>
                 <div className="text-3xl font-medium text-white tracking-tight">{val}</div>
@@ -134,7 +133,7 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
             <div className="hidden md:block absolute top-[40px] left-10 right-10 h-[1px] border-t border-dashed border-[#ffffff15] z-0"></div>
-            {[['1','Discovery','Deep dive into your operational bottlenecks, data structures, and desired ROI metrics.'],['2','Architecture','Designing the technical blueprint, selecting LLMs, and defining the software stack.'],['3','Development','Iterative building with rigorous testing, model fine-tuning, and API integration.'],['4','Deployment','Secure launch, team onboarding, and continuous monitoring for autonomous optimization.']].map(([num, title, desc]) => (
+            {[['1','Discovery','Deep dive into your business — understanding your challenges, pain points, and where things aren't working as smoothly as they could be.'],['2','Architecture','Designing the technical blueprint, selecting the right tools, and defining how everything will work together.'],['3','Development','We build, test, and refine your solution until every detail works exactly the way it should.'],['4','Deployment','Secure launch with continuous support so your business hits the ground running.']].map(([num, title, desc]) => (
               <div key={num} className="relative z-10 group">
                 <div className="bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-8 h-full relative overflow-hidden transition-transform duration-300 group-hover:-translate-y-2">
                   <div className="absolute top-0 left-0 right-0 h-[2px]" style={{background:gold}}></div>
@@ -155,8 +154,8 @@ export default function Home() {
           <div className="absolute top-0 right-0 w-64 h-64 rounded-full pointer-events-none mix-blend-screen" style={{background:'rgba(201,168,76,0.2)',filter:'blur(80px)'}}></div>
           <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full pointer-events-none mix-blend-screen" style={{background:'rgba(201,168,76,0.2)',filter:'blur(80px)'}}></div>
           <div className="relative z-10 max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">Ready to scale beyond human limitations?</h2>
-            <p className="mt-6 text-base font-extralight" style={{color:'rgba(201,168,76,0.8)'}}>Join the vanguard of tech-forward enterprises leveraging our AI infrastructure.</p>
+            <h2 className="text-3xl md:text-5xl font-medium tracking-tight text-white leading-tight">Ready to run a smarter business?</h2>
+            <p className="mt-6 text-base font-extralight" style={{color:'rgba(201,168,76,0.8)'}}>Elite businesses aren't waiting for the future — they're building it right now with AI. Take the first step and reach out today.</p>
             <Link href="#contact" className="mt-10 inline-block px-8 py-4 bg-white text-[#0a0a0a] rounded-full text-base font-normal hover:shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:-translate-y-1 transition-all duration-300">
               Start the Conversation
             </Link>
