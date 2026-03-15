@@ -16,7 +16,7 @@ const features = [
   { icon: Zap, title: 'Lightning Fast Performance', desc: 'Sub-second load times built on modern frameworks. Speed is SEO and speed is conversion.' },
   { icon: MonitorSmartphone, title: 'Mobile-First Design', desc: 'Every website we build looks and performs flawlessly on any device, screen size, or browser.' },
   { icon: Bot, title: 'AI Chatbot Integration', desc: 'Built-in AI chatbots that engage visitors, answer questions, and communicate leads to you around the clock.' },
-  { icon: Search, title: 'SEO Optimized', desc: 'Every page built with search engine ranking in mind — from meta tags to page structure to load speed.' },
+  { icon: Search, title: 'SEO Optimized', desc: 'Every page built with search engine ranking in mind — from key words to page structure.' },
 ]
 
 export default function WebsiteBuildingPage() {
