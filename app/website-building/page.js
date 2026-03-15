@@ -50,7 +50,7 @@ export default function WebsiteBuildingPage() {
           <p className="text-3xl md:text-4xl font-medium text-white mb-16">
             Everything your business <span style={goldText}>website needs</span>.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {features.map(f => {
               const Icon = f.icon
               return (
