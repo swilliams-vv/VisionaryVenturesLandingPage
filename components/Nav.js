@@ -9,7 +9,7 @@ export default function Nav() {
     <nav className="fixed top-0 inset-x-0 z-50 bg-[#0a0a0a]/70 backdrop-blur-md border-b border-[#ffffff0a] transition-all duration-300">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3 group">
-          <img src="/untitle-8.png" alt="Visionary Ventures" className="h-6 md:h-8 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300" />
+          <img src="/Untitled-8.png" alt="Visionary Ventures" className="h-6 md:h-8 w-auto object-contain opacity-90 group-hover:opacity-100 transition-opacity duration-300" />
           <span className="text-sm md:text-base font-medium tracking-wide" style={{background:'linear-gradient(135deg,#BF953F,#FCF6BA,#B38728,#FBF5B7,#AA771C)',WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent',backgroundClip:'text'}}>
             Visionary Ventures
           </span>
