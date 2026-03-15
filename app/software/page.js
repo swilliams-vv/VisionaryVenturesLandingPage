@@ -1,10 +1,10 @@
 import Nav from '../../components/Nav'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
-import { Wrench, Bot, BarChart2, RefreshCw, Lock, Zap } from 'lucide-react'
+import { CalendarCheck, DollarSign, FileText, TrendingUp, Database } from 'lucide-react'
 
 export const metadata = {
-  title: 'Business Software Enhancement Services | Visionary Ventures',
+  title: 'Custom Software Services | Visionary Ventures',
   description: 'AI software integration and business software enhancement services. We modernize, optimize, and upgrade your existing systems for the AI era.',
   keywords: 'business software enhancement services, AI software integration for existing systems, software upgrade and modernization services, software optimization, custom software development for business, business software enhancement, software modernization services'
 }
@@ -13,12 +13,11 @@ const gold = 'linear-gradient(135deg,#BF953F,#FCF6BA,#B38728,#FBF5B7,#AA771C)'
 const goldText = {background:gold,WebkitBackgroundClip:'text',WebkitTextFillColor:'transparent',backgroundClip:'text'}
 
 const features = [
-  { icon: Wrench, title: 'Legacy System Modernization', desc: 'We upgrade and modernize outdated software systems without disrupting your current operations.' },
-  { icon: Bot, title: 'AI Integration', desc: 'Inject AI capabilities directly into your existing software stack — no full rebuild required.' },
-  { icon: BarChart2, title: 'Real-Time Analytics', desc: 'Add powerful analytics dashboards to your existing systems for instant business intelligence.' },
-  { icon: RefreshCw, title: 'Process Automation', desc: 'Automate repetitive manual processes within your current software environment.' },
-  { icon: Lock, title: 'Security Hardening', desc: 'Upgrade your software security protocols to meet modern enterprise standards.' },
-  { icon: Zap, title: 'Performance Optimization', desc: 'Identify and eliminate bottlenecks, dramatically improving your software speed and reliability.' },
+  { icon: CalendarCheck, title: 'Scheduling', desc: 'Manage your entire team schedule in one place. Assign jobs, track availability, and notify your crew automatically — no more back and forth.' },
+  { icon: DollarSign, title: 'Employee Payments', desc: 'Streamline how your team gets paid. Track hours, calculate wages, and process payments all from one centralized platform.' },
+  { icon: FileText, title: 'Invoicing', desc: 'Generate and send professional invoices to clients automatically. Track what has been paid and what is outstanding without digging through spreadsheets.' },
+  { icon: TrendingUp, title: 'Profit Tracking', desc: 'See exactly how your business is performing in real time. Track revenue, expenses, and profit margins so you always know where your money is going.' },
+  { icon: Database, title: 'Data Organization', desc: 'All of your business data — customers, jobs, employees, and financials — organized and accessible in one place. No more scattered files or lost information.' },
 ]
 
 export default function SoftwarePage() {
@@ -34,10 +33,10 @@ export default function SoftwarePage() {
           <p className="text-sm uppercase tracking-widest text-[#a1a1aa] mb-4">Business Software Enhancement Services</p>
           <h1 className="text-5xl md:text-7xl font-medium tracking-tight leading-[1.1] max-w-4xl">
             Upgrade Your Software. <br />
-            <span style={goldText}>Amplify Your Business.</span>
+            <span style={goldText}>Centralize Your Business.</span>
           </h1>
           <p className="mt-6 text-lg text-[#a1a1aa] max-w-2xl font-extralight">
-            You don't always need to start from scratch. Our software enhancement and modernization services inject AI capabilities, automation, and performance improvements directly into your existing systems — delivering maximum ROI with minimal disruption.
+            We build custom business software designed specifically around how your company operates. From scheduling and crew management to payments, invoicing, and profit tracking — we centralize everything your team needs into one clean, easy to use platform so nothing falls through the cracks.
           </p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link href="/#contact" className="w-full sm:w-auto px-8 py-3 rounded-full text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[2px]" style={{background:gold}}>Enhance Your Software</Link>
@@ -69,16 +68,16 @@ export default function SoftwarePage() {
 
       <section className="py-24 border-t border-[#ffffff0a]">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-base uppercase tracking-widest text-[#a1a1aa] mb-2">Why Enhance</h2>
+          <h2 className="text-base uppercase tracking-widest text-[#a1a1aa] mb-2">Why Centralize</h2>
           <p className="text-3xl md:text-4xl font-medium text-white mb-16">
-            The smarter path to <span style={goldText}>modernization</span>.
+            Everything your business needs <span style={goldText}>in one place</span>.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              ['Lower Cost Than Rebuilding', 'Software enhancement delivers modern capabilities at a fraction of the cost of a full rebuild, protecting your existing investment.'],
-              ['Minimal Business Disruption', 'We enhance your systems while they remain operational, ensuring zero downtime and no disruption to your team.'],
-              ['Faster Time to Value', 'Enhancements can be deployed in weeks rather than months, getting you to ROI faster than any new build.'],
-              ['Future-Proof Architecture', 'We build enhancements with scalability in mind, ensuring your software can grow alongside your business.'],
+             ['One Platform, Zero Chaos', 'No need to juggle spreadsheets, texts, and disconnected tools. Everything your team needs lives in one place — organized, accessible, and always up to date.'],
+             ['Save Hours Every Week', 'Automating scheduling, invoicing, and payments alone can save your team 10 or more hours every week. That time goes back into growing your business.'],
+             ['Always Know Where You Stand', 'Real time profit tracking and data organization means you always have a clear picture of your business performance — no surprises.'],
+             ['Built Around How You Work', 'Your software is built specifically around your workflow, your team, and your industry.'],
             ].map(([title, desc]) => (
               <div key={title} className="flex gap-4 bg-[#0f0f1a] border border-[#ffffff0a] rounded-2xl p-6 hover:border-[#C9A84C]/30 transition-all duration-300">
                 <div className="w-2 h-2 rounded-full bg-[#C9A84C] mt-2 shrink-0"></div>
