@@ -11,7 +11,7 @@ export default function Footer() {
             Visionary Ventures
           </span>
         </Link>
-        <p className="text-sm text-[#71717a]">&copy; {new Date().getFullYear()} Visionary Ventures Inc. All systems nominal.</p>
+        <p className="text-sm text-[#71717a]">&copy; {new Date().getFullYear()} VisionaryV LLC. All systems nominal.</p>
         <div className="flex items-center gap-6">
           <Link href="/our-team" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">Our Team</Link>
           <a href="#" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">LinkedIn</a>
