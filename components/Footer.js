@@ -14,8 +14,9 @@ export default function Footer() {
         <p className="text-sm text-[#71717a]">&copy; {new Date().getFullYear()} VisionaryV LLC. All systems nominal.</p>
         <div className="flex items-center gap-6">
           <Link href="/our-team" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">Our Team</Link>
-          <a href="#" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">LinkedIn</a>
+          <a href="https://www.linkedin.com/company/visionaryv/" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">LinkedIn</a>
           <a href="#" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">Twitter</a>
+          <Link href="/privacy-policy" className="text-sm text-[#71717a] hover:text-[#f4f4f5] transition-colors">Privacy Policy</Link>
         </div>
       </div>
     </footer>
