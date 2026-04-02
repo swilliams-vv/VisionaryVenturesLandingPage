@@ -200,8 +200,8 @@ export default function Home() {
                     <option value="" disabled>Select primary focus...</option>
                     <option>AI Agents & Automation</option>
                     <option>Business Operations Software</option>
-                    <option>High-Performance Web</option>
-                    <option>Full Stack Integration</option>
+                    <option>High-Performance Website</option>
+                    <option>Full Stack AI Integration</option>
                   </select>
                 </div>
                 <div className="space-y-2">
