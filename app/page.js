@@ -205,8 +205,18 @@ export default function Home() {
                   </select>
                 </div>
                 <div className="space-y-2">
+                  <label className="text-sm font-normal text-[#a1a1aa] uppercase tracking-wider">Phone Number</label>
+                  <input type="tel" name="phone" className="w-full bg-[#0a0a0a] border border-[#ffffff10] rounded-xl px-4 py-3 text-base text-white placeholder-[#4b4b52] focus:outline-none focus:border-[#C9A84C] transition-all" placeholder="+1 (555) 000-0000" />
+                </div>
+                <div className="space-y-2">
                   <label className="text-sm font-normal text-[#a1a1aa] uppercase tracking-wider">Message</label>
                   <textarea name="message" required rows={4} className="w-full bg-[#0a0a0a] border border-[#ffffff10] rounded-xl px-4 py-3 text-base text-white placeholder-[#4b4b52] focus:outline-none focus:border-[#C9A84C] transition-all resize-none" placeholder="Tell us about your business and what you are looking to achieve..." />
+                </div>
+                <div className="flex items-start gap-3">
+                  <input type="checkbox" name="sms_consent" id="sms_consent" required className="mt-1 w-4 h-4 accent-[#C9A84C] cursor-pointer flex-shrink-0" />
+                  <label htmlFor="sms_consent" className="text-xs text-[#71717a] leading-relaxed cursor-pointer">
+                    By checking this box, I agree to receive SMS messages from Visionary Ventures including appointment confirmations, follow-ups, and service information. Message and data rates may apply. Reply STOP to opt out at any time. View our <a href="/privacy-policy" className="text-[#C9A84C] hover:underline">Privacy Policy</a>.
+                  </label>
                 </div>
                 <button type="submit" id="submit-btn" className="w-full py-4 rounded-xl text-base font-medium text-[#0a0a0a] transition-all duration-300 hover:-translate-y-[1px]" style={{background:gold}}>
                   Submit Request
