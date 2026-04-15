@@ -16,7 +16,7 @@ const team = [
   { name: 'Sean Williams', title: 'Founder', credential: "Dartmouth '26 — Economics & Human-Centered Design", photo: '/SPW.png' },
   { name: 'Tyson Grimm', title: 'Founder', credential: "Dartmouth '26 — Economics", photo: '/TRG.png' },
   { name: 'Jamal Cooper', title: 'Founder', credential: "Dartmouth '26 — Sociology", photo: '/JMC.png' },
-  { name: 'David Vincent', title: 'Founder', credential: "Kent State '26 - Finance", photo: '/DHV2.png' },
+  { name: 'David Vincent', title: 'Founder', credential: "Kent State '26 - Finance", photo: '/DHV3.png' },
   { name: 'Patrick Campbell', title: 'Partner', credential: "Dartmouth '26 — Quantitative Social Science", photo: '/PJC.png' },
 ]
 
