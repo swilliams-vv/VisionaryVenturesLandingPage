@@ -603,7 +603,7 @@ function MockSoftware() {
       setBars(next)
       const avg = next.reduce((a, b) => a + b, 0) / next.length
       setRev(Math.round((28 + avg * 0.5) * 10) / 10)
-    }, 3000)
+    }, 1500)
     return () => clearInterval(id)
   }, [])
 

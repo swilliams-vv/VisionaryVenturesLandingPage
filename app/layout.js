@@ -25,8 +25,8 @@ export const metadata = {
   creator: 'VisionaryV LLC',
   alternates: { canonical: '/' },
   icons: {
-    icon: '/Untitled-8.png',
-    apple: '/Untitled-8.png',
+    icon: '/vv-icon-black.png',
+    apple: '/vv-icon-black.png',
   },
   openGraph: {
     type: 'website',
