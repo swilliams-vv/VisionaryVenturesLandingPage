@@ -2,8 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background: #000000;
+  --foreground: #f7f7f8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #0a0a0a;
-  color: #f4f4f5;
-  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), 'Inter', sans-serif;
+  font-feature-settings: 'ss01', 'cv11';
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  /* Gold gradient text — the brand signature */
+  .gold-text-gradient {
+    background: linear-gradient(135deg, #dcb866 0%, #f5e9cf 45%, #b8924a 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Thin gold divider line */
+  .gold-rule {
+    background: linear-gradient(90deg, transparent, #b8924a, transparent);
+  }
+
+  /* Gold gradient fill for buttons / accents */
+  .gold-fill {
+    background: linear-gradient(135deg, #dcb866, #b8924a 55%, #a07a35);
+  }
+
+  /* Expanding pulse ring used on alert/status pills */
+  .pulse-gold {
+    position: relative;
+    isolation: isolate;
+  }
+  .pulse-gold::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: inherit;
+    z-index: -1;
+    animation: pulse-gold-ring 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+  }
+  @keyframes pulse-gold-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.55;
+    }
+    70%,
+    100% {
+      transform: scale(1.4);
+      opacity: 0;
+    }
+  }
+
+  /* Slowly drifting hero glow orb */
+  .hero-orb-drift {
+    animation: hero-orb-drift 18s ease-in-out infinite alternate;
+    will-change: transform;
+  }
+  @keyframes hero-orb-drift {
+    0% {
+      transform: translate3d(0, 0, 0) scale(1);
+    }
+    50% {
+      transform: translate3d(-30px, 20px, 0) scale(1.08);
+    }
+    100% {
+      transform: translate3d(20px, -10px, 0) scale(0.96);
+    }
+  }
+
+  /* Drifting dot grid */
+  .hero-grid-drift {
+    animation: hero-grid-drift 40s linear infinite;
+    will-change: background-position;
+  }
+  @keyframes hero-grid-drift {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 48px 48px;
+    }
+  }
+
+  /* Marquee track for logo / trust strips */
+  .marquee-track {
+    animation: marquee-scroll 50s linear infinite;
+    will-change: transform;
+  }
+  @keyframes marquee-scroll {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  /* Floating bubbles in the hero composition */
+  .float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+    will-change: transform;
+  }
+  @keyframes float-slow {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-8px);
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .pulse-gold::after,
+  .hero-orb-drift,
+  .hero-grid-drift,
+  .marquee-track,
+  .float-slow {
+    animation: none;
+  }
 }
